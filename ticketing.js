@@ -34,14 +34,15 @@ let kelasEKO = parseInt(Ekonomi) * keuntungan3;
 let untungKeseluruhan = kelasVIP + kelasEXE + kelasEKO;
 let totalTiket = parseInt(VIP) + parseInt(Executive) + parseInt(Ekonomi)
 
-console.log(`Keuntungan dari 3 kelas tersebut adalah,
-            1. Kelas VIP ${kelasVIP}
-            2. Kelas Executive ${kelasEXE}
-            3. Kelas Ekonomi ${kelasEKO}`)    
+console.log(`Keuntungan dari 3 kelas tersebut adalah, <br>
+            1. Kelas VIP ${kelasVIP} <br>
+            2. Kelas Executive ${kelasEXE} <br>
+            3. Kelas Ekonomi ${kelasEKO} <hr>`)    
             
-console.log(`Keuntungan keseluruhan dari ke-3 kelas tersebut adalah ${untungKeseluruhan}`)            
+console.log(`Keuntungan keseluruhan dari ke-3 kelas tersebut adalah <br>
+            ${untungKeseluruhan}<hr>`)            
             
-console.log(`Jumlah tiket per kelas adalah,
+console.log(`Jumlah tiket per kelas adalah, <br>
             1. Kelas VIP ${VIP}
             2. Kelas Executive ${Executive}
             3. Kelas Ekonomi ${Ekonomi}`)
@@ -49,21 +50,21 @@ console.log(`Jumlah tiket per kelas adalah,
 console.log(`Total tiket seluruhnya adalah ${totalTiket}`)
 
 document.write(
-    `Keuntungan dari 3 kelas tersebut adalah,
-    1. Kelas VIP ${kelasVIP}
-    2. Kelas Executive ${kelasEXE}
-    3. Kelas Ekonomi ${kelasEKO}.`
+    `Keuntungan dari 3 kelas tersebut adalah, <br>
+    1. Kelas VIP ${kelasVIP} <br>
+    2. Kelas Executive ${kelasEXE} <br>
+    3. Kelas Ekonomi ${kelasEKO} <hr>`
 )
 
 document.write(
-    `Keuntungan keseluruhan dari ke-3 kelas tersebut adalah ${untungKeseluruhan}.`
+    `Keuntungan keseluruhan dari ke-3 kelas tersebut adalah <br> ${untungKeseluruhan}. <br> <hr>`
 )
 
 document.write(
-    `Jumlah tiket per kelas adalah,
-    1. Kelas VIP ${VIP}
-    2. Kelas Executive ${Executive}
-    3. Kelas Ekonomi ${Ekonomi}.`)
+    `Jumlah tiket per kelas adalah, <br>
+    1. Kelas VIP ${VIP} <br>
+    2. Kelas Executive ${Executive} <br>
+    3. Kelas Ekonomi ${Ekonomi}.<br> <hr>`) 
 
 document.write(
     `Total tiket seluruhnya adalah ${totalTiket}.`
