@@ -34,20 +34,20 @@ let kelasEKO = parseInt(Ekonomi) * keuntungan3;
 let untungKeseluruhan = kelasVIP + kelasEXE + kelasEKO;
 let totalTiket = parseInt(VIP) + parseInt(Executive) + parseInt(Ekonomi)
 
-console.log(`Keuntungan dari 3 kelas tersebut adalah, <br>
-            1. Kelas VIP ${kelasVIP} <br>
-            2. Kelas Executive ${kelasEXE} <br>
-            3. Kelas Ekonomi ${kelasEKO} <hr>`)    
+// console.log(`Keuntungan dari 3 kelas tersebut adalah, <br>
+//             1. Kelas VIP ${kelasVIP} <br>
+//             2. Kelas Executive ${kelasEXE} <br>
+//             3. Kelas Ekonomi ${kelasEKO} <hr>`)    
             
-console.log(`Keuntungan keseluruhan dari ke-3 kelas tersebut adalah <br>
-            ${untungKeseluruhan}<hr>`)            
+// console.log(`Keuntungan keseluruhan dari ke-3 kelas tersebut adalah <br>
+//             ${untungKeseluruhan}<hr>`)            
             
-console.log(`Jumlah tiket per kelas adalah, <br>
-            1. Kelas VIP ${VIP}
-            2. Kelas Executive ${Executive}
-            3. Kelas Ekonomi ${Ekonomi}`)
+// console.log(`Jumlah tiket per kelas adalah, <br>
+//             1. Kelas VIP ${VIP}
+//             2. Kelas Executive ${Executive}
+//             3. Kelas Ekonomi ${Ekonomi}`)
             
-console.log(`Total tiket seluruhnya adalah ${totalTiket}`)
+// console.log(`Total tiket seluruhnya adalah ${totalTiket}`)
 
 document.write(
     `Keuntungan dari 3 kelas tersebut adalah, <br>
