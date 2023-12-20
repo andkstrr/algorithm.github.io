@@ -1,8 +1,8 @@
 // Ticketing 
 
-let VIP = prompt("JumlahKelasVIP");
-let Executive = prompt("JumlahKelasExecutive");
-let Ekonomi = prompt("JumlahKelasEkonomi");
+let VIP = prompt("Jumlah Kelas VIP yang terjual");
+let Executive = prompt("Jumlah Kelas Executive yang terjual");
+let Ekonomi = prompt("Jumlah Kelas Ekonomi yang terjual ");
 
 if ( VIP >= 35 ) {
     keuntungan1 = 25
@@ -28,11 +28,11 @@ if ( Ekonomi > 0 ) {
     keuntungan3 = 7
 }
 
-let kelasVIP = VIP * keuntungan1;
-let kelasEXE = Executive * keuntungan2;
-let kelasEKO = Ekonomi * keuntungan3;
+let kelasVIP = parseInt(VIP) * keuntungan1;
+let kelasEXE = parseInt(Executive) * keuntungan2;
+let kelasEKO = parseInt(Ekonomi) * keuntungan3;
 let untungKeseluruhan = kelasVIP + kelasEXE + kelasEKO;
-let totalTiket = VIP + Executive + Ekonomi
+let totalTiket = parseInt(VIP) + parseInt(Executive) + parseInt(Ekonomi)
 
 console.log(`Keuntungan dari 3 kelas tersebut adalah,
             1. Kelas VIP ${kelasVIP}
@@ -47,3 +47,24 @@ console.log(`Jumlah tiket per kelas adalah,
             3. Kelas Ekonomi ${Ekonomi}`)
             
 console.log(`Total tiket seluruhnya adalah ${totalTiket}`)
+
+document.write(
+    `Keuntungan dari 3 kelas tersebut adalah,
+    1. Kelas VIP ${kelasVIP}
+    2. Kelas Executive ${kelasEXE}
+    3. Kelas Ekonomi ${kelasEKO}.`
+)
+
+document.write(
+    `Keuntungan keseluruhan dari ke-3 kelas tersebut adalah ${untungKeseluruhan}.`
+)
+
+document.write(
+    `Jumlah tiket per kelas adalah,
+    1. Kelas VIP ${VIP}
+    2. Kelas Executive ${Executive}
+    3. Kelas Ekonomi ${Ekonomi}.`)
+
+document.write(
+    `Total tiket seluruhnya adalah ${totalTiket}.`
+)

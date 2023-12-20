@@ -1,3 +1,49 @@
+            // menentukan angka terbesar
+
+            let x = 40;
+            let y = 30;
+            let z = 25;
+
+            if (x > y && x > z) {
+                console.log("bilangan satu terbesar")
+            } else if ( y > x && y > z ) {
+                console.log("bilangan kedua terbesar")
+            } else if ( z > x && z > y ) {
+                console.log("bilangan ketiga terbesar")
+            } 
+
+            // Program untuk memeriksan sebuah angka masukan user, termasuk negatif/positif dan genap/ganjil
+
+            let angka = 12;
+
+            if (angka >= 0 ) {
+                adalah = "bilangan positif"
+            } else {
+                adalah = "bilangan negatif"
+            }
+
+            if (angka %2 == 0) {
+                adalah = "bilangan genap"
+            } else {
+                adalah = "bilangan ganjil"
+            }
+
+            console.log(adalah)
+
+            // saklar on/off lampu
+
+            let saklar = 3;
+
+            if ( saklar == 0 ) {
+                hasilnya = "OFF"
+            } else if  (saklar == 1) {
+                hasilnya = "ON";
+            } else {
+                hasilnya = "ERROR"
+            }
+
+            console.log(hasilnya)
+                        
             // Penjumlahan 2 angka
 
             let bilangan1 = 27;
