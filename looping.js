@@ -20,7 +20,7 @@ for(let k = 50; k >= 0; k--) {
 
 let num = 50;
 
-while(num >= 0) {
+while( num >= 0) {
     console.log(num);
     num--;
 }
@@ -30,4 +30,5 @@ while(num >= 0) {
 let a = 50;
 do {
     console.log(c);
+    a--
 } while (c >= 1)

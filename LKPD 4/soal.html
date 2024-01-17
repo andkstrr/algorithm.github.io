@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LKPD 3</title>
+</head>
+<body>
+    <script>
+        // menghitung nilai
+        let PABP = 70;
+        let MTK = 82;
+        let DPK = 77;
+        let rata = (PABP + MTK + DPK) / 3;
+
+        // proses 
+        if (rata >=80 && rata <=100){
+            grade = "A";
+        }
+        else if (rata >=75 && rata <=80){
+            grade = "B";
+        }
+        else if (rata >=65 && rata <=75){
+            grade = "C";
+        }    
+        else if (rata >=45 && rata <=65){
+            grade = "D";
+        }  
+        else if (rata >=0 && rata <=45){
+            grade = "E";
+        }  
+        else if (rata >= 0){
+            grade = "K";
+        }
+
+        console.log( "Rata-rata nilai tersebut adalah " + rata)
+        console.log( "Grade yang diperoleh adalah " + grade)
+
+        // 
+    </script>
+</body>
+</html>
