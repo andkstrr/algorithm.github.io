@@ -1,3 +1,6 @@
+//looping
+
+
 for(let i = 0; i <= 50; i++) {
     console.log(i)
 }
@@ -21,3 +24,10 @@ while(num >= 0) {
     console.log(num);
     num--;
 }
+
+// do while
+
+let a = 50;
+do {
+    console.log(c);
+} while (c >= 1)
