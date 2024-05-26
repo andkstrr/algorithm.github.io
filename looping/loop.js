@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Looping Javascript</title>
-</head>
-<body>
-    <script>
+
 //     for(let i = 0; i <= 50; i++) {
 //     console.log(i)
 // }
@@ -111,7 +103,3 @@
         v++;
     } while (v <= no)
     console.log("Faktorial dari " + no + " adalah: " + factorial3);
-
-    </script>
-</body>
-</html>
