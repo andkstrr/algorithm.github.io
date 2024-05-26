@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LKPD 3</title>
-</head>
-<body>
-    <script>
         // menghitung nilai
         let PABP = 70;
         let MTK = 82;
@@ -86,6 +77,3 @@
             detik = 0;
         }
         console.log(`setelah diubah menjadi detik menjadi ${jam}:${menit}:${detik}  `)
-    </script>
-</body>
-</html>

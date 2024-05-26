@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diskon Buah</title>
-</head>
-<body>
-    <script>
         // no 1
         let jeruk = prompt("masukkan jumlah / kg")
         let diskon = 5 / 100;
@@ -45,7 +36,6 @@
 
         // no 3
         let f = prompt("Masukkan Suhu Udara dalam Fahrenheit");
-    
         let suhu = (f - 32) * (5/9)
 
         if (suhu > 300) {
@@ -58,6 +48,3 @@
         hasil = "normal"
         }
         document.write(`Suhu udara sekitar ${suhu}C Suhu udara terasa ${hasil}`)
-    </script>
-</body>
-</html>

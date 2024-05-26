@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LKPD 5</title>
-</head>
-<body>
-    <script>
     // // NO 1
     // for(let i = 0; i <= 50; i++) {
     // console.log(i)
@@ -66,6 +57,3 @@
     console.log("Bilangan Terbesar: ", bilanganTerbesar);
     console.log("Bilangan Terkecil: ", bilanganTerkecil);
     console.log("Rata-rata: ", ratarata);
-    </script>
-</body>
-</html>
